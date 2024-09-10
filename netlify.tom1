@@ -1,0 +1,10 @@
+[build]
+  # 빌드 시 사용할 디렉토리 (예: public)
+  publish = "dist" # 또는 build 또는 public, 실제 배포 파일들이 위치한 폴더로 설정하세요.
+  # 빌드 명령어 (예: React/Vue 등 프레임워크 사용 시)
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/public/game.html"
+  status = 200

@@ -1,0 +1,111 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #f5f5dc; /* 부드러운 베이지색 배경 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.question {
+    font-size: 20px;
+}
+
+h1 {
+    color: #ff69b4; /* 핑크 컬러 */
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #ffb6c1;
+}
+
+.question-section, .result-section, .player-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.player-info input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #ff69b4;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #32cd32; /* 상큼한 연두색 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #228b22; /* 더 진한 연두색 */
+}
+
+.choice {
+    background-color: #ffefd5; /* 밝은 복숭아색 */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 2px solid #ffa07a;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.choice:hover {
+    background-color: #ffa07a; /* 살구색으로 변경 */
+}
+
+#finalRanking div {
+    font-size: 1.2rem;
+    color: #4682b4; /* 파란색 포인트 */
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#time {
+    font-size: 2rem;
+    color: #ff6347; /* 토마토 색 */
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+
+    .choice {
+        font-size: 1rem;
+    }
+}
